@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+// Font Variable
+$Poppins: "Poppins", sans-sarif;
+
+// Themes
+$theme-colors: (
+  "primary": #fca311,
+	"secondary": #14213d,
+	"light": #ffffff,
+	"dark": #000000, 
+	"success": #28a745,
+	"info": #17a2b8,
+	"warning": #ffc107,
+	"danger": #dc3545,
+);
+
+// Typography
+$font-family-sans-serif: $Poppins;
+$font-size-base: 1rem;
+$line-height-base: 1.7;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+//simple bar
+.simplebar-track {
+  width: 7px !important;
+}
+.simplebar-scrollbar:before {
+  background-color: #00000047 !important;
+}
+
+// custom css
+.cursor-pointer {
+  cursor: pointer;
+}
+.z-999 {
+  z-index: 999;
+}
+
+.header {
+  height: 7vh;
+  z-index: 999;
+}
